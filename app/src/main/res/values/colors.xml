@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="good">#5FFF3B</color>
+    <color name="newOne">#C62196F3</color>
+    <color name="error">#E00606</color>
+    <color name="normalText">#0A0EC9</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="bad">#E00606</color>
+    <color name="normal">#0DE006</color>
+    <color name="bad2">#E00606</color>
+
+</resources>

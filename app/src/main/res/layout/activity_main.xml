@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/lblWeight"
+        android:layout_marginTop="60dp"
+        android:text="බර"
+        android:textSize="25dp"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/txtErrorWeight"
+        android:textColor="@color/error"
+        />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/txtWeightUp"
+        android:layout_marginTop="60dp"
+        android:maxLength="3"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/txtWeight"
+        android:layout_marginTop="60dp"
+        android:maxLength="3"
+        android:gravity="center"
+        />
+
+
+    <!--    <Spinner-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="310dp"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--        android:id="@+id/lstWeight"/>-->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/lblHeight"
+        android:layout_marginTop="130dp"
+        android:text="උස"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="240dp"
+        android:id="@+id/txtHeight"
+        android:layout_marginTop="130dp"
+        android:maxLength="3"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="190dp"
+        android:id="@+id/txtErrorHeight"
+        android:textColor="@color/error"
+
+        />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/txtHeightFt"
+        android:layout_marginTop="130dp"
+        android:maxLength="3"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="ft"
+        android:textSize="30dp"
+        android:layout_marginLeft="220dp"
+        android:id="@+id/tFt"
+        android:layout_marginTop="130dp"
+        android:maxLength="3"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="In"
+        android:textSize="30dp"
+        android:layout_marginLeft="360dp"
+
+        android:layout_marginTop="130dp"
+        android:maxLength="3"
+        />
+<!--    <Spinner-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="360dp"-->
+<!--        android:layout_marginTop="140dp"-->
+<!--        android:id="@+id/lstHeight"/>-->
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalculateBmi"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:text="ගණනය කරන්න"
+        android:textSize="30dp"
+        android:background="@color/newOne"
+        android:gravity="center"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="30dp"
+        android:scaleY="10"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="බර මදි"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/error"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ඉතා හොදයි "
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="20dp"
+        android:textColor="@color/good"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ඉතා වැඩියි"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="290dp"
+        android:textSize="20dp"
+        android:textColor="@color/error"
+
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="170dp"
+        android:textSize="50dp"
+        android:id="@+id/txtBmi"
+        android:textColor="@color/error"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ඔබ ඔබගේ බරෙන්"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="20dp"
+        android:textColor="@color/normalText"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:layout_marginTop="525dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="20dp"
+        android:id="@+id/txtWeightAdjust"
+        android:textColor="@color/normalText"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kg වැඩි කරගත යුතුය"
+        android:id="@+id/lblWeightUp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:textColor="@color/normalText"
+        android:visibility="invisible"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kg අඩු  කරගත යුතුය"
+        android:id="@+id/lblWeightDown"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:textColor="@color/normalText"
+        android:visibility="invisible"
+
+
+        />
+
+</RelativeLayout>

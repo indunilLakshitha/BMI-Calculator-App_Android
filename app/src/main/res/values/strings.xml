@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BMI Calc</string>
+
+    <string-array name="strWeights">
+        <item>g</item>
+        <item>Kg</item>
+    </string-array>
+    <string-array name="strHeights">
+        <item>cm</item>
+        <item>in</item>
+    </string-array>
+</resources>
